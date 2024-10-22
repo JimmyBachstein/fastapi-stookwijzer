@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-stookwijzer"
+version = "0.1.0"
+description = "FastAPI wrapper for Stookwijzer API"
+authors = ["Jimmy Bachstein <presset.media@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+aiohttp = "^3.10.10"
+pytz = "^2024.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
